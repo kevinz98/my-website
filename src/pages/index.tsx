@@ -3,11 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
+import Tabs from '@/components/projectTabs';
 
 const Home: NextPage = () => {
   return (
     <>
-    <div className="flex flex-wrap justify-center p-4 md:pt-40 pt-28">
+    <div className="flex flex-wrap justify-center p-4 md:pt-40 pt-28" id='home'>
       <div className='w-full text-center max-w-md'>
         <img className="mx-auto w-60 h-60 rounded-full object-cover" src="/images/photo.jpg" alt="image"/>
         <h2 className='mt-8 font-semibold text-3xl text-slate-800'>Zijian Zhong</h2>
@@ -102,22 +103,22 @@ const Home: NextPage = () => {
       </div>
     </div>
 
-    <div className="flex flex-wrap lg:justify-center p-4 py-16 bg-slate-100">
+    <div className="flex flex-wrap lg:justify-center p-4 py-16 bg-slate-100" id='projects'>
       <div className='w-full lg:text-center max-w-md'>
         <h1 className='font-normal text-5xl'>Projects</h1>
       </div>
       <div className='w-full lg:w-1/2 pt-10 lg:pt-0 lg:pr-10'>
-        <h2 className='text-2xl font-medium'>Programming Languages</h2>
+          <Tabs />
+      </div>
+    </div>
+
+    <div className="flex flex-wrap lg:justify-center p-4 py-16 mt-10 lg:mt-20 mb-20">
+      <div className='w-full lg:text-center max-w-md'>
+        <h1 className='font-normal text-5xl'>Publications</h1>
+      </div>
+      <div className='w-full lg:w-1/2 pt-10 lg:pt-0 lg:pr-10'>
         <ul className="bulletpoint-list text-xl pt-2">
-            <li>Python, Java, C, C++, C#, Scala, JavaScript, TypeScript, OCaml, SQL, HTML, CSS</li>
-          </ul>
-        <h2 className='text-2xl font-medium mt-6'>Frameworks & Libraries</h2>
-          <ul className="bulletpoint-list text-xl pt-2">
-            <li>Unity, Spring Boot, React, Angular, REST API, Bootstrap, Tailwind, Flutter, NodeJS, OpenGL</li>
-          </ul>
-        <h2 className='text-2xl font-medium mt-6'>Tools & Cloud Platforms:</h2>
-          <ul className="bulletpoint-list text-xl pt-2">
-            <li>AWS, GCP, Docker, MongoDB, MySQL, Git, Zenhub</li>
+            <li>Li, H., Zheng, E., Zhong, Z., Xu, C., Roma, N., Lamkin, S., Von Visger, T. T., Chang, Y.-P., & Xu, W. (2022). Stress prediction using micro-EMA and machine learning during COVID-19 social isolation. Smart Health, 23, 100242.</li>
           </ul>
       </div>
     </div>

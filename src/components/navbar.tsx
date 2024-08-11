@@ -1,19 +1,20 @@
+import Link from 'next/link';
 import { useState } from 'react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-800 px-5 py-2 md:p-5 fixed w-full z-2">
+    <nav className="bg-gray-800 px-5 py-2 md:p-5 fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-2xl font-bold">
           Zijian Zhong
         </div>
         <div className="hidden md:flex space-x-6">
-          <a href="#" className="text-gray-300 hover:text-white">Home</a>
-          <a href="#" className="text-gray-300 hover:text-white">Skills</a>
-          <a href="#" className="text-gray-300 hover:text-white">Projects</a>
-          <a href="#" className="text-gray-300 hover:text-white">Resume</a>
+          <Link href="/#home" className="text-gray-300 hover:text-white">Home</Link>
+          <Link href="/#projects" className="text-gray-300 hover:text-white">Projects</Link>
+          <Link href="/pdfs/Zijian Zhong Resume.pdf" passHref legacyBehavior>
+                <a className='text-gray-300 hover:text-white' target="_blank">Resume</a></Link>
         </div>
         <div className="md:hidden flex items-center">
           <button onClick={() => setIsOpen(!isOpen)} className="text-gray-300 hover:text-white focus:outline-none">
@@ -24,10 +25,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className={`md:hidden transition-all duration-500 ease-in-out overflow-hidden pt-2 ${isOpen ? 'max-h-40' : 'max-h-0'}`}>
-        <a href="#" className="block text-gray-300 hover:text-white p-2">Home</a>
-        <a href="#" className="block text-gray-300 hover:text-white p-2">Skills</a>
-        <a href="#" className="block text-gray-300 hover:text-white p-2">Projects</a>
-        <a href="#" className="block text-gray-300 hover:text-white p-2">Resume</a>
+        <Link href="/#home" className="block text-gray-300 hover:text-white p-2">Home</Link>
+        <Link href="/#projects" className="block text-gray-300 hover:text-white p-2">Projects</Link>
+        <Link href="/" className="block text-gray-300 hover:text-white p-2">Resume</Link>
       </div>
     </nav>
   );

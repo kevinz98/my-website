@@ -1,0 +1,31 @@
+import Link from "next/link"
+
+const HighFields = () => {
+    return (
+        <>
+        <div className="flex flex-wrap justify-center p-4 md:pt-40 pt-28">
+            <h1 className="font-bold text-2xl w-full text-center mb-10">Height Fields Using Shaders</h1>
+            <h3 className=" w-full lg:w-1/2 text-lg">Using image data from a grayscale JPEG file to create height field, such that the two dimensions of the grid correspond to the two dimensions of the image and the height value is a function of the image grayscale level. Handle camera transformations, transform the landscape (translate/rotate/scale), and render the heightfield. Wrote a shader to perform geometry smoothing and re-color the terrain accordingly.<br></br><p className='mt-3 font-normal text-gray-700'><span><span className='font-bold'>Tech Stack: </span>C++, OpenGL</span></p></h3>
+        </div>
+        <div className="flex flex-wrap justify-center p-4">
+        <iframe
+                className="w-full h-ful md:w-1/2 md:h-1/2 2xl:w-1/3 2xl:h-1/3 aspect-video"
+                src="https://www.youtube.com/embed/0EAFn5TkuPg"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+            ></iframe>
+        </div>
+        <div className="flex items-center ">
+            <ul className="bulletpoint-list space-y-4 mx-auto my-10">
+                <li><span><Link href="https://viterbi-web.usc.edu/~jbarbic/cs420-s23/assign1/index.html" passHref legacyBehavior>
+                <a target="_blank" className="underline font-medium hover:text-blue-600">Project Detail Description</a></Link></span></li>
+                <li>**GitHub Repository review upon request.</li>
+            </ul>
+        </div>
+        </>
+    )
+}
+
+export default HighFields
