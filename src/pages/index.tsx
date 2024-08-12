@@ -50,7 +50,7 @@ const Home: NextPage = () => {
               <ul className="bulletpoint-list">
                 <li className='text-lg'>Master of Science in Computer Science, 2024</li>
                   <ul className='text-md text-slate-500'>University of Southern California</ul>
-                <li className='text-lg pt-1'>Bachelor of Science in Computer Science, 2018</li>
+                <li className='text-lg pt-1'>Bachelor of Science in Computer Science, 2022</li>
                   <ul className='text-md text-slate-500'>University at Buffalo, SUNY</ul>
               </ul>
             </div>
