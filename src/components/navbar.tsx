@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className={`md:hidden transition-all duration-500 ease-in-out overflow-hidden pt-2 ${isOpen ? 'max-h-40' : 'max-h-0'}`}>
         <Link href="/#home" className="block text-gray-300 hover:text-white p-2">Home</Link>
         <Link href="/#projects" className="block text-gray-300 hover:text-white p-2">Projects</Link>
-        <Link href="/pdfs/Zijian Zhong Resume.pdf" passHref legacyBehavior className="block p-2"><a className='text-gray-300 hover:text-white pl-2' target="_blank">Resume</a></Link>
+        <Link href="/pdfs/Zijian Zhong Resume.pdf" passHref legacyBehavior className="block"><a className='text-gray-300 hover:text-white p-2' target="_blank">Resume</a></Link>
       </div>
     </nav>
   );
