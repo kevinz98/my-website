@@ -137,7 +137,7 @@ const Tabs = () => {
                             <a>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">eBay Shopping Web App</h5>
                             </a>
-                            <p className="mb-3 font-normal text-gray-700">A customized online shopping platform that leverages eBay API with responsive web design. With filters base on various features (Location, Price, Distance, etc.), recommend similar items, and 'Save & Buy Later' function.</p>
+                            <p className="mb-3 font-normal text-gray-700">A customized online shopping platform that leverages eBay API with responsive web design. With filters base on various features (Location, Price, Distance, etc.), recommend similar items, and &apos;Save & Buy Later&apos; function.</p>
                             <p className='mb-3 font-normal text-gray-700'><span><span className='font-bold'>Tech Stack: </span>Angular, Bootstrap, JavaScript, TypeScript, MongoDB, NodeJS, Express, Docker, Restful API, AJAX, Google Cloud Platform</span></p>
                             <Link href="/ebayWebApp" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
                                 Details
@@ -175,7 +175,7 @@ const Tabs = () => {
                             <a>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">eBay Shopping Mobile App</h5>
                             </a>
-                            <p className="mb-3 font-normal text-gray-700">A customized online shopping mobile app that leverages eBay API. With filters base on various features (Location, Price, Distance, etc.), recommend similar items, and 'Save & Buy Later' function.</p>
+                            <p className="mb-3 font-normal text-gray-700">A customized online shopping mobile app that leverages eBay API. With filters base on various features (Location, Price, Distance, etc.), recommend similar items, and &apos;Save & Buy Later&apos; function.</p>
                             <p className='mb-3 font-normal text-gray-700'><span><span className='font-bold'>Tech Stack: </span>Java, MongoDB, NodeJS, Express, Restful API, Google Cloud Platform</span></p>
                             <Link href="/ebayMobileApp" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
                                 Details
@@ -275,7 +275,7 @@ const Tabs = () => {
                                 <a>
                                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Simulating a Roller Coaster</h5>
                                 </a>
-                                <p className="mb-3 font-normal text-gray-700">Use Catmull-Rom splines along with OpenGL core profile shader-based lighting and texture mapping to create a roller coaster simulation. Implemented two shaders: one for texture mapping (to render the ground), and one for Phong shading (to render the roller coaster rail). The simulation will run in a first-person view, allowing the user to "ride" the coaster in an immersive environment. 
+                                <p className="mb-3 font-normal text-gray-700">Use Catmull-Rom splines along with OpenGL core profile shader-based lighting and texture mapping to create a roller coaster simulation. Implemented two shaders: one for texture mapping (to render the ground), and one for Phong shading (to render the roller coaster rail). The simulation will run in a first-person view, allowing the user to &quot;ride&quot; the coaster in an immersive environment. 
                                 </p>
                                 <p className='mb-3 font-normal text-gray-700'><span><span className='font-bold'>Tech Stack: </span>C++, OpenGL</span></p>
                                 <Link href="/rollerCoaster" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
@@ -333,7 +333,7 @@ const Tabs = () => {
                                 <a>
                                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Compression using Vector Quantization</h5>
                                 </a>
-                                <p className="mb-3 font-normal text-gray-700">Course project. Compress images by using "vector quantization" method.
+                                <p className="mb-3 font-normal text-gray-700">Course project. Compress images by using &quot;vector quantization&quot; method.
                                 </p>
                                 <p className='mb-3 font-normal text-gray-700'><span><span className='font-bold'>Tech Stack: </span>Java</span></p>
                                 <Link href="/VectorQuantization" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">

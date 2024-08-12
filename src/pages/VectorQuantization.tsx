@@ -5,7 +5,7 @@ const RA = () => {
         <>
         <div className="flex flex-wrap justify-center p-4 md:pt-40 pt-28">
             <h1 className="font-bold text-2xl w-full text-center mb-10">Compression using Vector Quantization</h1>
-            <h3 className=" w-full lg:w-1/2 text-lg">Course project. Compress images by using "vector quantization" method.
+            <h3 className=" w-full lg:w-1/2 text-lg">Course project. Compress images by using &quot;vector quantization&quot; method.
 
 <br></br><p className='mt-3 font-normal text-gray-700'><span><span className='font-bold'>Tech Stack: </span>Java</span></p></h3>
         </div>

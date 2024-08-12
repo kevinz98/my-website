@@ -5,7 +5,7 @@ const RollerCoaster = () => {
         <>
         <div className="flex flex-wrap justify-center p-4 md:pt-40 pt-28">
             <h1 className="font-bold text-2xl w-full text-center mb-10">Simulating a Roller Coaster</h1>
-            <h3 className=" w-full lg:w-1/2 text-lg">Use Catmull-Rom splines along with OpenGL core profile shader-based lighting and texture mapping to create a roller coaster simulation. Implemented two shaders: one for texture mapping (to render the ground), and one for Phong shading (to render the roller coaster rail). The simulation will run in a first-person view, allowing the user to "ride" the coaster in an immersive environment.
+            <h3 className=" w-full lg:w-1/2 text-lg">Use Catmull-Rom splines along with OpenGL core profile shader-based lighting and texture mapping to create a roller coaster simulation. Implemented two shaders: one for texture mapping (to render the ground), and one for Phong shading (to render the roller coaster rail). The simulation will run in a first-person view, allowing the user to &quot;ride&quot; the coaster in an immersive environment.
 
 <br></br><p className='mt-3 font-normal text-gray-700'><span><span className='font-bold'>Tech Stack: </span>C++, OpenGL</span></p></h3>
         </div>

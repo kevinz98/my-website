@@ -41,7 +41,7 @@ const Home: NextPage = () => {
       </div>
       <div className='w-full lg:w-1/2 pt-16 lg:pt-0 lg:pr-10'>
         <h1 className='font-normal text-5xl'> Biography</h1>
-        <h2 className='text-xl pt-8 text-pretty'>Zijian(Kevin) Zhong is a recent graduate with a Master's degree in Computer Science from the University of Southern California. He is actively looking for full-time SDE(full stack) opportunities.</h2>
+        <h2 className='text-xl pt-8 text-pretty'>Zijian(Kevin) Zhong is a recent graduate with a Master&apos;s degree in Computer Science from the University of Southern California. He is actively looking for full-time SDE(full stack) opportunities.</h2>
         <div className="flex flex-wrap lg:pt-16 pt-12">
           <div className='w-full 2xl:w-1/2'>
               <h3 className='font-semibold text-3xl'>Education</h3>
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
             <li>Engineered cross-platform mobile applications in Flutter to facilitate research data collection on Android and iOS devices</li>
             <li>Collaborated with interdisciplinary teams to refine app design, implemented features, and enhanced user engagement</li>
             <li>Processed and analyzed complex datasets using Python for stress measure and prediction</li>
-            <li>Co-author of research paper "Stress prediction using micro-EMA and machine learning during COVID-19 social isolation."</li>
+            <li>Co-author of research paper &quot;Stress prediction using micro-EMA and machine learning during COVID-19 social isolation.&quot;</li>
           </ul>
       </div>
     </div>
