@@ -58,7 +58,7 @@ const Home: NextPage = () => {
               <h3 className='font-semibold text-3xl'>Certifications</h3>
               <ul className="bulletpoint-list space-y-1 text-lg">
                 <li>AWS Certified Developer - Associate</li>
-                <li>AWS Certified Solutions Architect – Associate</li>
+                <li>AWS Certified Solutions Architect - Associate</li>
                 <li>AWS Certified Cloud Practitioner</li>
               </ul>
             </div>

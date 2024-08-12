@@ -5,7 +5,7 @@ const  RTP= () => {
         <>
         <div className="flex flex-wrap justify-center p-4 md:pt-40 pt-28">
             <h1 className="font-bold text-2xl w-full text-center mb-10">Reliable Transport Protocols</h1>
-            <h3 className=" w-full lg:w-1/2 text-lg">Developed the client and server components of a text chat application, consisting of one chat server and multiple chat clients over TCP connections.<br></br><p className='mt-3 font-normal text-gray-700'><span><span className='font-bold'>Tech Stack: </span>C++</span></p></h3>
+            <h3 className=" w-full lg:w-1/2 text-lg">In a given simulator, implement three reliable data transport protocols: Alternating-Bit (ABT), Go-Back-N (GBN), and Selective-Repeat (SR). Compare the performance for the protocols under different conditions, which resulted in increased throughput/ network performance when data packets are lost during transition.<br></br><p className='mt-3 font-normal text-gray-700'><span><span className='font-bold'>Tech Stack: </span>C++</span></p></h3>
         </div>
         <div className="flex items-center ">
             <ul className="bulletpoint-list space-y-4 mx-auto my-10">
