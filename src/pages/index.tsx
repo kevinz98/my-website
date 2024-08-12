@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <>
     <div className="flex flex-wrap justify-center p-4 md:pt-40 pt-28" id='home'>
       <div className='w-full text-center max-w-md'>
-        <img className="mx-auto w-60 h-60 rounded-full object-cover" src="/images/photo.jpg" alt="image"/>
+        <img className="mx-auto w-60 h-60 rounded-full object-cover" src="/photo.jpg" alt="image"/>
         <h2 className='mt-8 font-semibold text-3xl text-slate-800'>Zijian Zhong</h2>
         <h3 className='pt-2 font-medium text-lg text-slate-500'>Software Developer</h3>
         <div className='flex justify-center pt-5'>
