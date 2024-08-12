@@ -293,7 +293,7 @@ const Tabs = () => {
                                 <a>
                                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Ray Tracing</h5>
                                 </a>
-                                <p className="mb-3 font-normal text-gray-700">Build a ray tracer. Ray tracer will be able to handle opaque surfaces with lighting and shadows. Applied antialiasing by supersampling. Impove the image quality by using the soft shadows. Parallel computing is implemented to support faster rendering. 
+                                <p className="mb-3 font-normal text-gray-700">Build a ray tracer. Ray tracer will be able to handle opaque surfaces with lighting and shadows. Applied antialiasing by supersampling. Improve the image quality by using the soft shadows. Parallel computing is implemented to support faster rendering. 
                                 </p>
                                 <p className='mb-3 font-normal text-gray-700'><span><span className='font-bold'>Tech Stack: </span>C++, OpenGL</span></p>
                                 <Link href="/rayTracing" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
