@@ -1,21 +1,12 @@
 /** @type {import('next').NextConfig} */
 
-
-const isGithubActions = process.env.GITHUB_ACTIONS || false;
-
-let assetPrefix = '';
-let basePath = '';
-
-if (isGithubActions) {
-  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '');
-  assetPrefix = `/${repo}/`;
-  basePath = `/${repo}`;
-}
+const isProd = process.env.NODE_ENV === 'production';
 
 
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
+  basePath: isProd ? '/my-app' : '',
 };
 
 export default nextConfig;
