@@ -43,7 +43,7 @@ const Home: NextPage = () => {
       </div>
       <div className='w-full lg:w-1/2 pt-16 lg:pt-0 lg:pr-10'>
         <h1 className='font-normal text-5xl'> Biography</h1>
-        <h2 className='text-xl pt-8 text-pretty'>Zijian(Kevin) Zhong is a recent graduate with a Master&apos;s degree in Computer Science from the University of Southern California. He is actively looking for full-time SDE(full stack) opportunities.</h2>
+        <h2 className='text-xl pt-8 text-pretty'>Zijian(Kevin) Zhong is a recent graduate with a master&apos;s degree in Computer Science from the University of Southern California with a robust background in software development, research, and project management. <br></br>He has strong expertise in programming languages such as Python, JavaScript, Java, and C++, as well as in frameworks like React, Angular, and Spring Boot.</h2>
         <div className="flex flex-wrap lg:pt-16 pt-12">
           <div className='w-full 2xl:w-1/2'>
               <h3 className='font-semibold text-3xl'>Education</h3>
